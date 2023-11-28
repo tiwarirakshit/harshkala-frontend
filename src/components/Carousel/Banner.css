@@ -1,0 +1,82 @@
+.splide-4 .splide__pagination{
+    display: flex;
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    bottom: -19px;
+    width: 100%;
+}
+.splide-4 .splide__pagination .splide__pagination__page{
+    height: 10px;
+    width: 10px;
+}
+.splide-4 .splide__pagination .splide__pagination__page.is-active{
+    background-color: rgba(227, 3, 3, 0.767)!important;
+    transform: scale(1);
+    width: 14px;
+    border-radius: 10px;
+}
+.splide-4 .splide__arrow{
+    background-color: white;
+    opacity: 1;
+    color: white;
+    display: none;
+} 
+.splide-4 .splide__arrow--prev{
+    background-color: rgba(209, 204, 204, 0.597);
+    opacity: 0.8;
+    color: white!important;
+    left: -25px;
+}
+.splide-4 .splide__arrow--next{
+    background-color: rgba(209, 204, 204, 0.597);
+    opacity: 0.8;
+    color: white!important;
+    right: -20px;
+}
+
+
+@media screen and (max-width:800px) {
+    .splide-4 .splide__arrow{
+        display: none;
+    }  
+    .splide-4 .splide__pagination .splide__pagination__page{
+        height: 5px;
+        width: 5px;
+    }
+    .splide-4 .splide__pagination .splide__pagination__page.is-active{
+        width: 9px;
+    } 
+    .splide-4 .splide__pagination{
+        bottom: -10px;
+    }
+}
+.splide5 .splide__pagination{
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+}
+
+.splide5 .splide__pagination .splide__pagination__page{
+    height: 10px;
+    width: 10px;
+}
+.splide5 .splide__pagination .splide__pagination__page.is-active{
+    background-color: rgba(255, 0, 0, 0.603)!important;
+    transform: scale(1);
+    width: 14px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .splide5 .splide__pagination{
+        bottom: -15px;
+        scale: 0.7;
+    }
+
+}
+
+.splide5{
+    background-color: rgba(128, 128, 128, 0.063);
+    margin-top: 5px!important;
+}

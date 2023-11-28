@@ -1,0 +1,7 @@
+.MuiSlider-root{
+    color: #BD1818!important;
+    width: 200px!important;
+}
+.MuiSlider-rail{
+    color: gray;
+}
